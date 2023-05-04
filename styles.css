@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+* {
+    font-family: "Instrument Serif";
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background-color: rgba(170, 26, 0, 1);
+}
+
+
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    color: azure;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    color: azure;
+}
+
+.nav-links li a:hover {
+    color: limegreen;
+
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: limegreen;
+}
+
+.intro {
+    color: azure;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    text-indent: -50px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.mission {
+    margin: 0 auto;
+    display: flex;
+    background-image: url("https://www.reuters.com/resizer/HNs17pb9GdR5uQsALxhQ057OWaI=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/LM5R3FOE7FP3PJF2JFBZBZSR3I.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    justify-content: center;
+
+}
+
+.text-over {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 0px 20px;
+    font-size: 24px;
+    color: #B8B8B8;
+
+}
+
+.car {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+cars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cars img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.cars span {
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tit2 {
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.team {
+    display: flex;
+background-image: url("https://cdn.motor1.com/images/mgl/3OmN6/s3/ferrari-logo.jpg");
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 6px;
+    
+}
+
+.teamates {
+    padding: 10px;
+    color: azure;
+    flex-basis: 250px;
+}
+
+.teamates img {
+    width: 250px;
+    padding: 10px;
+    height: auto;
+    margin-left: auto;
+    margin-left: auto;
+}
+
+.team-container h1 {
+    text-align: center;
+}
+
+.team-container {
+    margin-top: 20px;
+
+}
+#copyrights{
+    color: azure;
+}
+.contact{
+    color: azure;
+}
+.cars span:hover{
+    color: limegreen;
+    cursor: pointer;
+}
+footer{
+    padding-top: 30px;
+}
+.contact{
+    padding-top: 30px;
+    font-size: 21px;
+}
